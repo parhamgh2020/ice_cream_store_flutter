@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'ice cream shop',
       theme: ThemeData(
         scaffoldBackgroundColor: Color.fromRGBO(31, 31, 31, 1),
       ),
